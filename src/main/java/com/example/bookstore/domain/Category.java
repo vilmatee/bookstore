@@ -55,7 +55,10 @@ public class Category {
 	public String toString() {
 		return "Category [categoryid=" + categoryid + ", name=" + name + ", books=" + books + "]";
 	}
-	
-	
 
+	public static void deleteById(Long bookId) {
+		// TODO Auto-generated method stub
+		
+	}
+	
 }
